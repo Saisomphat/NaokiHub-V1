@@ -841,7 +841,7 @@ function Update:Window(text,logo,keybind)
 			Space.TextColor3 = Color3.fromRGB(255, 255, 255)
 			Space.TextXAlignment = Enum.TextXAlignment.Right
 
-			Black.Name = "Black"
+			Black.Name = "Blue"
 			Black.Parent = Button
 			Black.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 			Black.BackgroundTransparency = 1.000
