@@ -12783,7 +12783,7 @@ D:AddButton("Check Stock Advanced Dealer",function()
 	frame.Parent = gui
 	frame.Size = UDim2.new(0, 200, 0, 300)
 	frame.Position = UDim2.new(0.1, 0, 0.1, 0)
-	frame.BackgroundColor3 = Color3.new(0, 0, 0)
+	frame.BackgroundColor3 = Color3.new(0.68, 0.85, 1)
 
 	local textLabel = Instance.new("TextLabel")
 	textLabel.Parent = frame
@@ -12869,7 +12869,7 @@ D:AddButton("Check Stock Normal Dealer",function()
 	frame.Parent = gui
 	frame.Size = UDim2.new(0, 200, 0, 300)
 	frame.Position = UDim2.new(0.1, 0, 0.1, 0)
-	frame.BackgroundColor3 = Color3.new(0, 0, 0)
+	frame.BackgroundColor3 = Color3.new(0.68, 0.85, 1)
 
 	local textLabel = Instance.new("TextLabel")
 	textLabel.Parent = frame
@@ -12916,7 +12916,7 @@ D:AddButton("Check Stock Normal Dealer",function()
 	closeButton.Parent = frame
 	closeButton.Size = UDim2.new(0, 20, 0, 20)
 	closeButton.Position = UDim2.new(1, -20, 0, 0)
-	closeButton.BackgroundColor3 = Color3.new(1, 0, 0)
+	closeButton.BackgroundColor3 = Color3.new(1, 1, 1)
 	closeButton.Text = "X"
 	closeButton.MouseButton1Click:Connect(closeGUI)
 end)
