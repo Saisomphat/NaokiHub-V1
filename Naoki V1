@@ -80,7 +80,7 @@ function Notif.New(text, timee)
 	local text_label = Instance.new("TextLabel")
 	text_label.Font = Enum.Font.Gotham
 	text_label.Text = text
-	text_label.TextColor3 = Color3.new(0, 0, 0)
+	text_label.TextColor3 = Color3.new(0.68, 0.85, 1)
 	text_label.TextSize = 14
 	text_label.AutomaticSize = Enum.AutomaticSize.X
 	text_label.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -99,10 +99,10 @@ function Notif.New(text, timee)
 	local text_button = Instance.new("TextButton")
 	text_button.Font = Enum.Font.SourceSans
 	text_button.Text = ""
-	text_button.TextColor3 = Color3.new(0, 0, 0)
+	text_button.TextColor3 = Color3.new(0.68, 0.85, 1)
 	text_button.TextSize = 14
 	text_button.AnchorPoint = Vector2.new(1, 0.5)
-	text_button.BackgroundColor3 = Color3.new(0, 0, 0)
+	text_button.BackgroundColor3 = Color3.new(0.68, 0.85, 1)
 	text_button.BackgroundTransparency = 1
 	text_button.BorderColor3 = Color3.new(0.68, 0.85, 1)
 	text_button.BorderSizePixel = 0
@@ -334,7 +334,7 @@ function Update:Window(text,logo,keybind)
 	local Top = Instance.new("Frame")
 	Top.Name = "Top"
 	Top.Parent = Main
-	Top.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+	Top.BackgroundColor3 = Color3.fromRGB(29, 196, 199)
 	Top.Size = UDim2.new(0, 556, 0, 30)
 	Top.BackgroundTransparency = 1.000
 	local TCNR = Instance.new("UICorner")
@@ -14116,3 +14116,4 @@ spawn(function()
 		end
 	end)
 end)
+
