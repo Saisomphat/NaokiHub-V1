@@ -44,7 +44,7 @@ function Notif.New(text, timee)
 	frame_2.BackgroundColor3 = Color3.new(1, 1, 1)
 	frame_2.BorderColor3 = Color3.new(0.68, 0.85, 1)
 	frame_2.BorderSizePixel = 0
-	frame_2.BackgroundTransparency = 1
+	frame_2.BackgroundTransparency = 0
 	frame_2.Size = UDim2.new(0, 100, 0, 0)
 	frame_2.Visible = true
 	frame_2.Parent = frame
